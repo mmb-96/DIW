@@ -13,6 +13,7 @@
     </div>
     <div class="container-fluid">
         <div class="row">
+            <!-- Imagenes -->
             <div class="col">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -25,10 +26,7 @@
                         <img class="d-block w-100" src="img1.png" alt="First slide">
                       </div>
                       <div class="carousel-item">
-                        <img class="d-block w-100" src="img2.png" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="img3.png" alt="Third slide">
+                        <img class="d-block w-100" src="img2.png" alt="Third slide">
                       </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -41,50 +39,102 @@
                     </a>
                   </div>
             </div>
-            <div class="col">
+            <!-- Descripcion -->
+            <div class="col text-center">
                 <p>Raspberry Pi es uno de los ordenadores más básicos que podemos encontrar, también uno de los más vendidos de toda la historia
                    informática. Su atractivo precio ha hecho que se vendan millones y millones de unidades generación tras generación.</p><br>
-                <p></p><br>
-                <p></p>
+                <p>Este es el ultimo modelo que ha salido, algunas de sus mejoras son, mejor calidad de imagen, posibilidad de conectar dos monitores a 4K 
+                    a través de dos conectores micro-HDMI, mejor velocidad de procesador, existen tres modelos distinto segun RAM.</p><br>
+                <p>La placa es un poco más grande que los modelos antiguos, por este motivo no se puede usar las carcasa antiguas, necesitas una carcasa nueva. 
+                    Otro inconveniente es que necesitas un nuevo cargador, ya que esta placa necesita más potencia de alimentación.</p><br>
             </div>
         </div> 
         <hr>
         <div class="row">
+            <!-- Caracteristica -->
             <div class="col">
                 <H6>CARACTERÍSTICA</H6>
+                <br>
                 <ul>
-                    <li>CPU ARM Cortex-A72 de 64 bits con cuatro núcleos a 1,5 GHz.</li>
-                    <li>1 GB, 2 GB o 4 GB de SDRAM LPDDR4.</li>
-                    <li>Gigabit Ethernet.</li>
-                    <li>Red inalámbrica 802.11ac de doble banda.</li>
-                    <li>Bluetooth 5.0.</li>
-                    <li>Dos puertos USB 3.0 y dos puertos USB 2.0.</li>
-                    <li>Soporte de doble monitor , en resoluciones de hasta 4K.</li>
-                    <li>Gráficos de VideoCore VI, compatibles con OpenGL ES 3.x.</li>
-                    <li>Decodificación de hardware 4Kp60 de video HEVC.</li>
-                    <li>Compatibilidad completa con productos Raspberry Pi anteriores.</li>
+                    <li>CPU ARM Cortex-A72 de 64 bits con cuatro núcleos a 1,5 GHz.</li><br>
+                    <li>1 GB, 2 GB o 4 GB de SDRAM LPDDR4.</li><br>
+                    <li>Gigabit Ethernet.</li><br>
+                    <li>Red inalámbrica 802.11ac de doble banda.</li><br>
+                    <li>Bluetooth 5.0.</li><br>
+                    <li>Dos puertos USB 3.0 y dos puertos USB 2.0.</li><br>
+                    <li>Soporte de doble monitor , en resoluciones de hasta 4K.</li><br>
+                    <li>Gráficos de VideoCore VI, compatibles con OpenGL ES 3.x.</li><br>
+                    <li>Decodificación de hardware 4Kp60 de video HEVC.</li><br>
+                    <li>Compatibilidad completa con productos Raspberry Pi anteriores.</li><br>
                 </ul>
             </div>
+            <!-- Posible usos -->
             <div class="col">
-                <h6>POSIBLES USOS</H6>
-                <p>Existen muchos variedad de usos, se van a mensionar algunos de ellos. Los más usados e interesantes:</p>
+                <h6>POSIBLES USOS</H6><br>
+                <p>Existen muchos variedad de usos, se van a mensionar algunos de ellos. Los más usados e interesantes:</p><br>
                 <ul>
-                    <li>Servidor web.</li>
-                    <li>Servidor team speak 3.</li>
-                    <li>Servidor de correo electronico.</li>
-                    <li>Servidor VPN.</li>
-                    <li>Reloj binario.</li>
-                    <li>Servidor DNS.</li>
-                    <li>Servidor de nube privado.</li>
-                    <li>Maquinas recreativa o videoconsola.</li>
-                    <li>Control de voz para puerta de garaje.</li>
+                    <li>Servidor web.</li><br>
+                    <li>Servidor team speak 3.</li><br>
+                    <li>Servidor de correo electronico.</li><br>
+                    <li>Servidor VPN.</li><br>
+                    <li>Reloj binario.</li><br>
+                    <li>Servidor DNS.</li><br>
+                    <li>Servidor de nube privado.</li><br>
+                    <li>Maquinas recreativa o videoconsola.</li><br>
+                    <li>Control de voz para puerta de garaje.</li><br>
                 </ul>
             </div>
-            <div class="col">FORMULARIO</div>
+            <!-- Formulario -->
+            <div class="col">
+                <h6>FORMULARIO</h6>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="Apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido">
+                    </div> 
+                    <div class="form-group">
+                        <label for="Direccion">Direccion:</label>
+                        <input type="text" class="form-control" id="Direccion">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telefono">Telefono:</label>
+                        <input type="text" class="form-control" id="Telefono">
+                    </div>
+                    <div class="form-group">
+                        <label for="codPostal">Codigo Postal:</label>
+                        <input type="text" class="form-control" id="codPostal">
+                    </div>
+                    <label for="modRP4">Modelo de RAM:</label>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="modRAM1GB0">1 GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="modRAM2GB">2 GB
+                        </label>
+                    </div>
+                    <div class="form-check disabled">
+                        <label class="form-check-label">
+                            <input type="radio" class="form-check-input" name="modRAM4GB">4 GB
+                        </label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <br>
+                </form>
+                <br>
+            </div>
         </div>
     </div>
+    <!-- JS para hacer funcionar el slider -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
