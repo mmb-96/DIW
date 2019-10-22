@@ -1,0 +1,235 @@
+body {
+    margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font:Arial, sans-serif;
+}
+
+.barra{
+    margin:0 auto;
+    position: relative;
+}
+
+#menu{
+    height: 40px;
+    width:100%;
+    position:relative; 
+    z-index:101; 
+}
+
+#menu ul,#menu li{
+    margin: 0px auto;
+    padding:0 0;
+    list-style:none;
+    float: right;
+}
+
+#menu li{   
+    float: left;
+    position:relative;
+    font: 11px Arial, sans-serif;/*tamaño y fuente del texto */
+}
+
+#menu ul a{
+    display: block;
+    line-height: 50px;
+    padding: 0 10px;
+    text-decoration: uppercase;
+    color: #333;/*color del texto*/
+    text-transform: uppercase;
+    letter-spacing: 1.5px;/*espacio entre letras*/
+}
+
+#menu input{
+    display:none;
+    margin:0 0;
+    padding:0 0;
+    width:50px;
+    height:50px;
+    opacity:0;
+    cursor:pointer
+}
+
+#menu label{
+    display:none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 17px;
+    vertical-align: middle;
+}
+   
+
+@media screen and (max-width: 990px){ 
+    #menu{
+        position: relative;
+        z-index:101; 
+    }
+
+    #menu ul{
+        background:#F1F1F1;/*color del desplegable del menu movil*/
+        position:absolute;
+        top:100%;
+        right:0;
+        z-index:3;
+        height:auto;
+        display:none
+    }
+
+    #menu li{
+        display:block;
+        float:none;
+        width:auto;
+        font: 11px  Arial, sans-serif;
+    }
+
+    #menu ul a{
+        display: block;
+        line-height: 40px;
+        padding: 0 14px;
+    }
+
+    #menu input,#menu label{
+        position:absolute;
+        top:0;
+        right:0;
+        display:block;
+    }
+
+    #menu input{
+        z-index:4
+    }
+
+    #menu input:checked ~ ul{
+        display:block;
+        top: 57px;
+    }
+
+    .barra{
+        width:95%!important;
+    }
+
+    #localAndContac {
+        text-align:center;
+    }
+}
+
+
+/* Estilo movil */
+#header {
+    height: 80px;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+    width: 230px;
+}
+
+#menuIco {
+    margin-right: 10px;
+    margin-top: 17.5px;
+    float: right;
+    font-size:40px
+}
+
+video {
+    width: 95%;
+}
+
+#video {
+    text-align:center;
+}
+
+#footer {
+    height: 100px;
+    text-align:center;
+}
+
+#social i {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-size: 35px;
+    color: #333;/*color del texto*/
+}
+
+#tlfMovil {
+    visibility: visible;
+    text-decoration:none; 
+    color: #333;/*color del texto*/
+}
+
+#tlfPC{
+    visibility: hidden;
+}
+
+div p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div div i{
+    font-size: 50px;
+    margin-top: 15px;
+}
+
+ul li{
+    text-align:left;
+    margin-right: 10px;
+}
+
+#mapa {
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align:center;
+}
+
+/*Estio pc*/
+@media only screen and (min-width: 800px) {
+    #tlfMovil {
+        visibility: hidden;
+        text-decoration:none; 
+        color: #333;/*color del texto*/
+    }
+    
+    #tlfPC{
+        visibility: visible;
+    }
+
+    #header {
+        height: 110px;
+    }
+    
+    #logo {
+        margin-top: 5px;
+        margin-left: 10px;
+        float: left;
+        width: 340px;
+    }
+
+    #social i {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 5px;
+        font-size: 50px;
+        color: #333;/*color del texto*/
+    }
+
+    #footer {
+        height: 125px;
+        text-align:center;
+    }
+
+    #localAndContac {
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: center;
+    }
+
+    video {
+        width: 60%;
+    }
+}

@@ -1,0 +1,220 @@
+@media only screen and (max-width: 768px) {
+
+  #anuncio{
+    width: 80%;
+    height: 50px;
+  }
+    .reservationDiv {
+      width: 70%;
+      height: 70%;
+      text-align: center;
+      margin-left: 15%;
+      margin-top: 5%;
+      font-family:fantasy;
+    }
+    
+    #input {
+        width: 70%;
+        height: 70%;
+        font-family:fantasy;
+        border-color: cadetblue;
+        border-radius: 5px;
+    }
+
+    #date{
+      width: 50%;
+      height: 50%;
+      font-family:fantasy;
+      border-color: cadetblue;
+      border-radius: 5px;
+    }
+
+    #comensales{
+      width: 50%;
+      height: 50%;
+      font-family:fantasy;
+      border-color: cadetblue;
+      border-radius: 5px;
+    }
+
+    .reservationFieldset{
+        line-height: 300%;
+    }
+
+    .reservationFieldset{
+      border-radius: 10px;
+      border-color: cadetblue;
+  }
+  
+  .enviar{
+      font-size:10px;
+      border-radius: 5px;
+      font-family:fantasy;
+      font-weight: bold;
+      color:white;
+      background:#386897;
+      border:0px;
+      width:80px;
+      height:25px;
+     }
+  
+     .popup {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      margin-left: -16.3em;
+    }
+  
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: 50px;
+    }
+  
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: 5px;
+      border-width: 0px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+    
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+  
+    @-webkit-keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity:1 ;}
+    }
+
+}
+
+@media only screen and (min-width: 769px){
+
+  #anuncio{
+    width: 40em;
+    height: 7em;
+    margin-left: 1.5%;
+  }
+
+  .reservationFieldset {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    font-family:fantasy;
+    align-items: center;
+    margin-left: 35%;
+  }
+  
+  #input {
+      width: 70%;
+      height: 70%;
+      font-family:fantasy;
+      border-color: cadetblue;
+      border-radius: 5px;
+  }
+
+  #date{
+    width: 50%;
+    height: 50%;
+    font-family:fantasy;
+    border-color: cadetblue;
+    border-radius: 5px;
+  }
+
+  #comensales{
+    width: 50%;
+    height: 50%;
+    font-family:fantasy;
+    border-color: cadetblue;
+    border-radius: 5px;
+  }
+  
+  .reservationFieldset{
+    line-height: 300%;
+    border-radius: 10px;
+    border-color: cadetblue;
+  }
+
+  .enviar{
+    font-size:10px;
+    border-radius: 5px;
+    font-family:fantasy;
+    font-weight: bold;
+    color:white;
+    background:#386897;
+    border:0px;
+    width:80px;
+    height:25px;
+  }
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: -16.3em;
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: 50px;
+  }
+
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: 5px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+}
+

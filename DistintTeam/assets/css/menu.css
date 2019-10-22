@@ -1,0 +1,121 @@
+@media only screen and (max-width: 768px) {
+    .oculto {display:none}
+
+    .oculto ul li{
+        list-style: none;
+        text-align: left;
+        margin-left: 15%;
+    }
+
+    #carne{
+        width: 50%;
+        height: 50%;
+        margin-bottom: 10%;
+    }
+
+    #pescado{
+        margin-top: 15%;
+        width: 50%;
+        height: 50%;
+    }
+
+    #verdura{
+        margin-top: 15%;
+        width: 50%;
+        height: 50%;
+    }
+
+    #pizza{
+        margin-top: 15%;
+        width: 50%;
+        height: 50%;
+    }
+
+    #hamburguesa{
+        margin-top: 15%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .menuDiv{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px){
+    .menuDiv{
+        font-size: 1.5em;
+    }
+
+    #carne{
+        margin-left: 5%;
+        float: left;
+        width: 10em;
+        height: 5em;
+        margin-top: 0.4%;
+    }
+
+    #pescado{
+        margin-right: 5%;
+        float: right;
+        width: 10em;
+        height: 5em;
+        margin-top: 0.4%;
+    }
+
+    #verdura{
+        margin-left: 5%;
+        float: left;
+        width: 10em;
+        height: 5em;
+        margin-top: 0.4%;
+    }
+
+    #pizza{
+        margin-right: 5%;
+        float: right;
+        width: 10em;
+        height: 5em;
+        margin-top: 0.4%;
+    }
+
+    #hamburguesa{
+        margin-left: 5%;
+        float: left;
+        width: 10em;
+        height: 5em;
+        margin-top: 0.4%;
+    }
+
+    .oculto ul li{
+        text-align: center;
+        list-style: none;
+
+    }
+
+    .uno{
+        background-color: brown;
+        text-align: center;
+    }
+
+    .dos{
+        background-color: blanchedalmond;
+    }
+
+    .tres{
+        background-color: brown;
+    }
+
+    .cuatro{
+        background-color: blanchedalmond;
+    }
+
+    .cinco{
+        background-color: brown;
+    }
+
+    .oculto ul li:hover{
+        background-color:beige;
+        transition:0.5s;
+    }
+}
