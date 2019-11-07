@@ -1,0 +1,12 @@
+#social i {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    font-size: 50px;
+    color: #333;/*color del texto*/
+}
+
+#footer {
+    height: 125px;
+    text-align:center;
+}
