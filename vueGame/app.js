@@ -29,7 +29,7 @@ new Vue({
   mounted () {
     axios({
       "method":"GET",
-      "url":"https://rawg-video-games-database.p.rapidapi.com/platforms/4",
+      "url":"https://rawg-video-games-database.p.rapidapi.com/platforms/"+5,
       "headers":{
       "content-type":"application/json",
       "x-rapidapi-host":"rawg-video-games-database.p.rapidapi.com",

@@ -12,8 +12,7 @@
   <body>
     <div class="container" id="platforms">
         <h3 class="text-center">{{info.name}}</h3>
-        {{info.description}}
-        <span id="descrip"></span>
+        <span v-html="info.description"></span>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

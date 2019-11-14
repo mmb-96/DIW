@@ -13,16 +13,38 @@
     <div class="container" id="games">
         <span v-for="int in info">
             <h3 class="text-center">{{int.name}}</h3>
-            Fecha lanzamiento: {{int.released}}<br>
+            Release Date: {{int.released}}<br>
             Genres: 
             <span v-for="intplat in int.genres">
-                {{intplat.name}}
+                {{intplat.name}}&nbsp;
             </span>
             <br>
             Platforms:
             <span v-for="intplat in int.platforms">
-            {{intplat.platform.name}}
+              {{intplat.platform.name}}&nbsp;
             </span>
+            <br>
+            Store:
+            <span v-for="intstore in int.stores">
+              <a :href="intstore.url_en">{{intstore.store.name}}</a>&nbsp;
+            </span>
+            <br>
+            <div id="carouselControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item" v-for="intimg in int.short_screenshots">
+                  <img class="d-block w-100" :src="intimg.image">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <br>
             <br>
         </span>
     </div>
