@@ -5,7 +5,7 @@ new Vue({
       platforms: []
     }
   },
-  mounted () {
+  created () {
     axios({
       "method":"GET",
       "url":"https://rawg-video-games-database.p.rapidapi.com/platforms",
@@ -26,7 +26,7 @@ new Vue({
       info: []
     }
   },
-  mounted () {
+  created () {
     axios({
       "method":"GET",
       "url":"https://rawg-video-games-database.p.rapidapi.com/platforms/"+5,
@@ -49,7 +49,7 @@ new Vue({
       info: []
     }
   },
-  mounted () {
+  created () {
     axios({
       "method":"GET",
       "url":"https://rawg-video-games-database.p.rapidapi.com/games",
@@ -72,7 +72,7 @@ new Vue({
       info: []
     }
   },
-  mounted () {
+  created () {
     axios({
       "method":"GET",
       "url":"https://rawg-video-games-database.p.rapidapi.com/genres",
